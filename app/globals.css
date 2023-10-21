@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  @apply h-screen flex flex-col items-center justify-center;
+}
+
+h1 {
+  @apply text-5xl text-violet-400;
+  font-weight: 800;
+}
+
+h3 {
+  @apply text-3xl text-violet-400;
+  font-weight: 700;
+}
+
+p {
+  @apply opacity-50;
+}
